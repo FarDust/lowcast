@@ -1,0 +1,17 @@
+[project]
+name = "lowcast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "FarDust", email = "gabriel.faundez@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+lowcast = "lowcast:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
